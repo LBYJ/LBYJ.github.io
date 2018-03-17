@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/hello-world/"/>
+      <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><a id="more"></a><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+      
+      <categories>
+          
+          <category> hexo </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    <entry>
+      <title>Hexo + Github 搭建博客问题收集</title>
+      <link href="/Hexo-Github-%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E9%97%AE%E9%A2%98%E6%94%B6%E9%9B%86/"/>
+      <content type="html"><![CDATA[<p><img src="https://images.pexels.com/photos/48606/pexels-photo-48606.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb"></p><p>个人博客在运营维护过程中，常常会出现 Bug ，这篇文章会展示我遇见的所有问题，并且也附带了解决方案。<br><a id="more"></a></p><h3 id="1-使用-hexo-d-部署博客时出现下面的问题"><a href="#1-使用-hexo-d-部署博客时出现下面的问题" class="headerlink" title="1. 使用 hexo d 部署博客时出现下面的问题"></a>1. 使用 hexo d 部署博客时出现下面的问题</h3><p>fatal: HttpRequestException encountered.<br>bash: /dev/tty: No such device or address<br>error: failed to execute prompt script (exit code 1)<br>fatal: could not read Username for ‘<a href="https://github.com&#39;" target="_blank" rel="noopener">https://github.com&#39;</a>: No error<br>FATAL Something’s wrong. Maybe you can find the solution here: <a href="http://hexo.io" target="_blank" rel="noopener">http://hexo.io</a>                    /docs/troubleshooting.html</p><h4 id="问题解读"><a href="#问题解读" class="headerlink" title="问题解读"></a>问题解读</h4><p>问题显示：遇到了 HTTP 请求、不能识别来自 <a href="https://github.com" target="_blank" rel="noopener">https://github.com</a> 的 Username </p><h4 id="解决办法：修改站点根目录下配置文件-config-yml-的-deploy-项，按照如下修改："><a href="#解决办法：修改站点根目录下配置文件-config-yml-的-deploy-项，按照如下修改：" class="headerlink" title="解决办法：修改站点根目录下配置文件 _config.yml 的 deploy 项，按照如下修改："></a>解决办法：修改站点根目录下配置文件 _config.yml 的 deploy 项，按照如下修改：</h4><p><strong>修改前：</strong><br>deploy:<br>&emsp;&emsp;&emsp;type: git<br>&emsp;&emsp;&emsp;repo: <a href="https://github.com/yourname/yourname.github.io.git" target="_blank" rel="noopener">https://github.com/yourname/yourname.github.io.git</a><br>&emsp;&emsp;&emsp;branch: master<br><strong>修改后：</strong><br>deploy:<br>&emsp;&emsp;&emsp;type: git<br>&emsp;&emsp;&emsp;repo: <a href="mailto:git@github.com" target="_blank" rel="noopener">git@github.com</a>:yourname/yourname.github.io.git<br>&emsp;&emsp;&emsp;branch: master</p>]]></content>
+      
+      
+        <tags>
+            
+            <tag> 博客问题收集 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>hexo + github搭建个人博客</title>
+      <link href="/hexo-github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+      <content type="html"><![CDATA[<a id="more"></a>]]></content>
+      
+      
+    </entry>
+    
+  
+  
+</search>
