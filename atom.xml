@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://bigkachu.site/"/>
-  <updated>2018-03-17T06:57:20.426Z</updated>
+  <updated>2018-03-18T10:20:02.102Z</updated>
   <id>http://bigkachu.site/</id>
   
   <author>
@@ -17,15 +17,21 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>文件名</title>
-    <link href="http://bigkachu.site/%E6%96%87%E4%BB%B6%E5%90%8D/"/>
-    <id>http://bigkachu.site/文件名/</id>
+    <title>海报</title>
+    <link href="http://bigkachu.site/%E6%B5%B7%E6%8A%A5/"/>
+    <id>http://bigkachu.site/海报/</id>
     <published>2018-03-17T06:57:20.000Z</published>
-    <updated>2018-03-17T06:57:20.426Z</updated>
+    <updated>2018-03-18T10:20:02.102Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://ohuw11jei.bkt.clouddn.com/%E6%B4%BB%E5%8A%A8%E6%B5%B7%E6%8A%A5.png"><br><a id="more"></a><br><img src="http://ohuw11jei.bkt.clouddn.com/%E6%B4%BD%E8%B0%88%E4%BC%9A.png" alt=""></p><hr><p><img src="http://ohuw11jei.bkt.clouddn.com/3.8%E5%A5%B3%E4%BA%BA%E8%8A%82.png" alt=""></p><hr><p><img src="http://ohuw11jei.bkt.clouddn.com/%E4%BA%8C%E7%94%B2%E7%94%B5%E5%8F%B0.png" alt=""></p><hr><p><img src="http://ohuw11jei.bkt.clouddn.com/%E5%BC%80%E5%8F%B0%E6%B5%B7%E6%8A%A51.png" alt=""></p><hr><p><img src="http://ohuw11jei.bkt.clouddn.com/%E5%BC%80%E5%8F%B0%E6%B5%B7%E6%8A%A52.png" alt=""></p><hr><p><img src="http://ohuw11jei.bkt.clouddn.com/%E6%B8%A9%E5%B2%AD%E6%90%93%E6%90%93%E9%BA%BB%E5%B0%86.png" alt=""></p><hr><p><img src="http://ohuw11jei.bkt.clouddn.com/%E5%B0%8F%E8%AF%B4%E7%BC%96%E8%BE%91%E6%8B%9B%E8%81%98.png" alt=""></p><hr><p><img src="http://ohuw11jei.bkt.clouddn.com/%E6%96%B0%E6%98%A5%E5%A4%A7%E7%A4%BC%E5%8C%85.png" alt=""></p>]]></content>
     
     <summary type="html">
     
+      &lt;p&gt;&lt;img src=&quot;http://ohuw11jei.bkt.clouddn.com/%E6%B4%BB%E5%8A%A8%E6%B5%B7%E6%8A%A5.png&quot;&gt;&lt;br&gt;
+    
     </summary>
+    
+      <category term="海报" scheme="http://bigkachu.site/categories/%E6%B5%B7%E6%8A%A5/"/>
     
     
   </entry>
@@ -55,7 +61,7 @@
     <link href="http://bigkachu.site/Hexo-Github-%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E9%97%AE%E9%A2%98%E6%94%B6%E9%9B%86/"/>
     <id>http://bigkachu.site/Hexo-Github-搭建博客问题收集/</id>
     <published>2018-02-24T08:32:55.000Z</published>
-    <updated>2018-03-16T11:49:35.369Z</updated>
+    <updated>2018-03-18T09:17:10.472Z</updated>
     
     <content type="html"><![CDATA[<p><img src="https://images.pexels.com/photos/48606/pexels-photo-48606.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb"></p><p>个人博客在运营维护过程中，常常会出现 Bug ，这篇文章会展示我遇见的所有问题，并且也附带了解决方案。<br><a id="more"></a></p><h3 id="1-使用-hexo-d-部署博客时出现下面的问题"><a href="#1-使用-hexo-d-部署博客时出现下面的问题" class="headerlink" title="1. 使用 hexo d 部署博客时出现下面的问题"></a>1. 使用 hexo d 部署博客时出现下面的问题</h3><p>fatal: HttpRequestException encountered.<br>bash: /dev/tty: No such device or address<br>error: failed to execute prompt script (exit code 1)<br>fatal: could not read Username for ‘<a href="https://github.com&#39;" target="_blank" rel="noopener">https://github.com&#39;</a>: No error<br>FATAL Something’s wrong. Maybe you can find the solution here: <a href="http://hexo.io" target="_blank" rel="noopener">http://hexo.io</a>                    /docs/troubleshooting.html</p><h4 id="问题解读"><a href="#问题解读" class="headerlink" title="问题解读"></a>问题解读</h4><p>问题显示：遇到了 HTTP 请求、不能识别来自 <a href="https://github.com" target="_blank" rel="noopener">https://github.com</a> 的 Username </p><h4 id="解决办法：修改站点根目录下配置文件-config-yml-的-deploy-项，按照如下修改："><a href="#解决办法：修改站点根目录下配置文件-config-yml-的-deploy-项，按照如下修改：" class="headerlink" title="解决办法：修改站点根目录下配置文件 _config.yml 的 deploy 项，按照如下修改："></a>解决办法：修改站点根目录下配置文件 _config.yml 的 deploy 项，按照如下修改：</h4><p><strong>修改前：</strong><br>deploy:<br>&emsp;&emsp;&emsp;type: git<br>&emsp;&emsp;&emsp;repo: <a href="https://github.com/yourname/yourname.github.io.git" target="_blank" rel="noopener">https://github.com/yourname/yourname.github.io.git</a><br>&emsp;&emsp;&emsp;branch: master<br><strong>修改后：</strong><br>deploy:<br>&emsp;&emsp;&emsp;type: git<br>&emsp;&emsp;&emsp;repo: <a href="mailto:git@github.com" target="_blank" rel="noopener">git@github.com</a>:yourname/yourname.github.io.git<br>&emsp;&emsp;&emsp;branch: master</p>]]></content>
     
@@ -68,31 +74,6 @@
     
     
       <category term="博客问题收集" scheme="http://bigkachu.site/tags/%E5%8D%9A%E5%AE%A2%E9%97%AE%E9%A2%98%E6%94%B6%E9%9B%86/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>图册</title>
-    <link href="http://bigkachu.site/photo/"/>
-    <id>http://bigkachu.site/photo/</id>
-    <published>2017-04-22T04:52:57.000Z</published>
-    <updated>2018-03-17T14:55:56.532Z</updated>
-    
-    <content type="html"><![CDATA[<div class="group-picture"><div class="group-picture-container"><div class="group-picture-row"><div class="group-picture-column" style="width: 50%;"><img src="http://ohuw11jei.bkt.clouddn.com/11.11.png" alt=""></div><div class="group-picture-column" style="width: 50%;"><img src="http://ohuw11jei.bkt.clouddn.com/%E6%83%8A%E8%9B%B01.png" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://ohuw11jei.bkt.clouddn.com/%E5%BC%80%E5%8F%B0%E6%B5%B7%E6%8A%A51.png" alt=""></div><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://ohuw11jei.bkt.clouddn.com/%E6%83%8A%E8%9B%B02.png" alt=""></div><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://ohuw11jei.bkt.clouddn.com/3.8%E5%A5%B3%E4%BA%BA%E8%8A%82.png" alt=""></div></div></div></div>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;div class=&quot;group-picture&quot;&gt;&lt;div class=&quot;group-picture-container&quot;&gt;&lt;div class=&quot;group-picture-row&quot;&gt;&lt;div class=&quot;group-picture-column&quot; style=&quot;widt
-      
-    
-    </summary>
-    
-      <category term="图片" scheme="http://bigkachu.site/categories/%E5%9B%BE%E7%89%87/"/>
-    
-    
-      <category term="图片" scheme="http://bigkachu.site/tags/%E5%9B%BE%E7%89%87/"/>
     
   </entry>
   

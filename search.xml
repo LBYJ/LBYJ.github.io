@@ -3,9 +3,15 @@
   
     
     <entry>
-      <title>文件名</title>
-      <link href="/%E6%96%87%E4%BB%B6%E5%90%8D/"/>
-      <content type="html"><![CDATA[]]></content>
+      <title>海报</title>
+      <link href="/%E6%B5%B7%E6%8A%A5/"/>
+      <content type="html"><![CDATA[<p><img src="http://ohuw11jei.bkt.clouddn.com/%E6%B4%BB%E5%8A%A8%E6%B5%B7%E6%8A%A5.png"><br><a id="more"></a><br><img src="http://ohuw11jei.bkt.clouddn.com/%E6%B4%BD%E8%B0%88%E4%BC%9A.png" alt=""></p><hr><p><img src="http://ohuw11jei.bkt.clouddn.com/3.8%E5%A5%B3%E4%BA%BA%E8%8A%82.png" alt=""></p><hr><p><img src="http://ohuw11jei.bkt.clouddn.com/%E4%BA%8C%E7%94%B2%E7%94%B5%E5%8F%B0.png" alt=""></p><hr><p><img src="http://ohuw11jei.bkt.clouddn.com/%E5%BC%80%E5%8F%B0%E6%B5%B7%E6%8A%A51.png" alt=""></p><hr><p><img src="http://ohuw11jei.bkt.clouddn.com/%E5%BC%80%E5%8F%B0%E6%B5%B7%E6%8A%A52.png" alt=""></p><hr><p><img src="http://ohuw11jei.bkt.clouddn.com/%E6%B8%A9%E5%B2%AD%E6%90%93%E6%90%93%E9%BA%BB%E5%B0%86.png" alt=""></p><hr><p><img src="http://ohuw11jei.bkt.clouddn.com/%E5%B0%8F%E8%AF%B4%E7%BC%96%E8%BE%91%E6%8B%9B%E8%81%98.png" alt=""></p><hr><p><img src="http://ohuw11jei.bkt.clouddn.com/%E6%96%B0%E6%98%A5%E5%A4%A7%E7%A4%BC%E5%8C%85.png" alt=""></p>]]></content>
+      
+      <categories>
+          
+          <category> 海报 </category>
+          
+      </categories>
       
       
     </entry>
@@ -33,26 +39,6 @@
         <tags>
             
             <tag> 博客问题收集 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    <entry>
-      <title>图册</title>
-      <link href="/photo/"/>
-      <content type="html"><![CDATA[<div class="group-picture"><div class="group-picture-container"><div class="group-picture-row"><div class="group-picture-column" style="width: 50%;"><img src="http://ohuw11jei.bkt.clouddn.com/11.11.png" alt=""></div><div class="group-picture-column" style="width: 50%;"><img src="http://ohuw11jei.bkt.clouddn.com/%E6%83%8A%E8%9B%B01.png" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://ohuw11jei.bkt.clouddn.com/%E5%BC%80%E5%8F%B0%E6%B5%B7%E6%8A%A51.png" alt=""></div><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://ohuw11jei.bkt.clouddn.com/%E6%83%8A%E8%9B%B02.png" alt=""></div><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://ohuw11jei.bkt.clouddn.com/3.8%E5%A5%B3%E4%BA%BA%E8%8A%82.png" alt=""></div></div></div></div>]]></content>
-      
-      <categories>
-          
-          <category> 图片 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 图片 </tag>
             
         </tags>
       
