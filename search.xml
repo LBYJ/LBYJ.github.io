@@ -39,6 +39,26 @@
     </entry>
     
     <entry>
+      <title>图册</title>
+      <link href="/photo/"/>
+      <content type="html"><![CDATA[<div class="group-picture"><div class="group-picture-container"><div class="group-picture-row"><div class="group-picture-column" style="width: 50%;"><img src="http://ohuw11jei.bkt.clouddn.com/11.11.png" alt=""></div><div class="group-picture-column" style="width: 50%;"><img src="http://ohuw11jei.bkt.clouddn.com/%E6%83%8A%E8%9B%B01.png" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://ohuw11jei.bkt.clouddn.com/%E5%BC%80%E5%8F%B0%E6%B5%B7%E6%8A%A51.png" alt=""></div><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://ohuw11jei.bkt.clouddn.com/%E6%83%8A%E8%9B%B02.png" alt=""></div><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://ohuw11jei.bkt.clouddn.com/3.8%E5%A5%B3%E4%BA%BA%E8%8A%82.png" alt=""></div></div></div></div>]]></content>
+      
+      <categories>
+          
+          <category> 图片 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 图片 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>hexo + github搭建个人博客</title>
       <link href="/hexo-github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
       <content type="html"><![CDATA[<a id="more"></a>]]></content>

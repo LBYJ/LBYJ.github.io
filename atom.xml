@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Pikachu&#39;s Blog</title>
+  <title>Bigkachu&#39;s Blog</title>
   
   
   <link href="/atom.xml" rel="self"/>
@@ -68,6 +68,31 @@
     
     
       <category term="博客问题收集" scheme="http://bigkachu.site/tags/%E5%8D%9A%E5%AE%A2%E9%97%AE%E9%A2%98%E6%94%B6%E9%9B%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>图册</title>
+    <link href="http://bigkachu.site/photo/"/>
+    <id>http://bigkachu.site/photo/</id>
+    <published>2017-04-22T04:52:57.000Z</published>
+    <updated>2018-03-17T14:55:56.532Z</updated>
+    
+    <content type="html"><![CDATA[<div class="group-picture"><div class="group-picture-container"><div class="group-picture-row"><div class="group-picture-column" style="width: 50%;"><img src="http://ohuw11jei.bkt.clouddn.com/11.11.png" alt=""></div><div class="group-picture-column" style="width: 50%;"><img src="http://ohuw11jei.bkt.clouddn.com/%E6%83%8A%E8%9B%B01.png" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://ohuw11jei.bkt.clouddn.com/%E5%BC%80%E5%8F%B0%E6%B5%B7%E6%8A%A51.png" alt=""></div><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://ohuw11jei.bkt.clouddn.com/%E6%83%8A%E8%9B%B02.png" alt=""></div><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://ohuw11jei.bkt.clouddn.com/3.8%E5%A5%B3%E4%BA%BA%E8%8A%82.png" alt=""></div></div></div></div>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;div class=&quot;group-picture&quot;&gt;&lt;div class=&quot;group-picture-container&quot;&gt;&lt;div class=&quot;group-picture-row&quot;&gt;&lt;div class=&quot;group-picture-column&quot; style=&quot;widt
+      
+    
+    </summary>
+    
+      <category term="图片" scheme="http://bigkachu.site/categories/%E5%9B%BE%E7%89%87/"/>
+    
+    
+      <category term="图片" scheme="http://bigkachu.site/tags/%E5%9B%BE%E7%89%87/"/>
     
   </entry>
   
